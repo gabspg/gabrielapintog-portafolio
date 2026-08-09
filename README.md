@@ -1,1 +1,0 @@
-# gabrielapintog-portafolio
