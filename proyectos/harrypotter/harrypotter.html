@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sombrero Seleccionador</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🎩 Sombrero Seleccionador</h1>
+    <p>Descubre a qué casa mágica perteneces</p>
+</header>
+
+<main>
+
+    <section class="imagen-sombrero">
+        <img src="sombrero.png" alt="Sombrero Seleccionador">
+    </section>
+
+    <section class="contenedor">
+
+        <h2>🪄 Test de Personalidad Mágica</h2>
+
+        <p>Responde las preguntas y descubre tu casa.</p>
+
+        <div class="pregunta">
+            <p>1. Encuentras un objeto mágico perdido. ¿Qué haces?</p>
+            <select id="p1">
+                <option value="Hufflepuff">Intento encontrar a su dueño</option>
+                <option value="Slytherin">Investigo cómo podría ayudarme</option>
+                <option value="Ravenclaw">Analizo su historia y origen</option>
+                <option value="Gryffindor">Busco resolver el misterio</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <p>2. Tu equipo tiene un problema complicado. Tú...</p>
+            <select id="p2">
+                <option value="Ravenclaw">Busco información y una solución</option>
+                <option value="Gryffindor">Tomo la iniciativa</option>
+                <option value="Hufflepuff">Ayudo a que todos estén bien</option>
+                <option value="Slytherin">Creo una estrategia para ganar</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <p>3. ¿Qué tipo de reconocimiento prefieres?</p>
+            <select id="p3">
+                <option value="Ravenclaw">Por mis ideas y conocimientos</option>
+                <option value="Gryffindor">Por mi valentía</option>
+                <option value="Slytherin">Por mis logros</option>
+                <option value="Hufflepuff">Por ayudar a otros</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <p>4. Descubres un secreto importante...</p>
+            <select id="p4">
+                <option value="Slytherin">Lo uso de manera inteligente</option>
+                <option value="Hufflepuff">Pienso en cómo afecta a otros</option>
+                <option value="Ravenclaw">Investigo más sobre él</option>
+                <option value="Gryffindor">Intento hacer lo correcto</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <p>5. En una competencia disfrutas más...</p>
+            <select id="p5">
+                <option value="Gryffindor">El desafío y la emoción</option>
+                <option value="Slytherin">Ser el mejor</option>
+                <option value="Ravenclaw">Aprender algo nuevo</option>
+                <option value="Hufflepuff">Compartir con otros</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <p>6. Tus amigos dirían que eres...</p>
+            <select id="p6">
+                <option value="Hufflepuff">Leal y confiable</option>
+                <option value="Slytherin">Determinado y capaz</option>
+                <option value="Ravenclaw">Curioso y creativo</option>
+                <option value="Gryffindor">Valiente y decidido</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <p>7. Si pudieras aprender una habilidad mágica sería...</p>
+            <select id="p7">
+                <option value="Ravenclaw">Crear nuevos conocimientos</option>
+                <option value="Gryffindor">Proteger personas</option>
+                <option value="Slytherin">Tener gran poder</option>
+                <option value="Hufflepuff">Ayudar y sanar</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <p>8. Cuando cometes un error...</p>
+            <select id="p8">
+                <option value="Ravenclaw">Aprendo de él</option>
+                <option value="Gryffindor">Lo enfrento</option>
+                <option value="Slytherin">Busco mejorar mi estrategia</option>
+                <option value="Hufflepuff">Intento reparar el daño</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <p>9. Tu lugar ideal para estudiar sería...</p>
+            <select id="p9">
+                <option value="Ravenclaw">Una biblioteca llena de libros</option>
+                <option value="Gryffindor">Un lugar lleno de aventuras</option>
+                <option value="Slytherin">Un lugar elegante y privado</option>
+                <option value="Hufflepuff">Un lugar cómodo con amigos</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <p>10. La frase que más te representa:</p>
+            <select id="p10">
+                <option value="Gryffindor">Nunca dejo de intentarlo</option>
+                <option value="Slytherin">Siempre encuentro una forma</option>
+                <option value="Ravenclaw">El conocimiento es poder</option>
+                <option value="Hufflepuff">La unión hace la fuerza</option>
+            </select>
+        </div>
+
+        <button onclick="calcularCasa()">
+            ✨ Revelar mi casa
+        </button>
+
+        <h2 id="resultado"></h2>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Gabriela Pinto | Proyecto Sombrero Seleccionador</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

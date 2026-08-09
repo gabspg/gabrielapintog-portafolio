@@ -1,0 +1,51 @@
+
+body{
+    margin:0;
+    font-family:Georgia,serif;
+    background:#101010;
+    color:white;
+    text-align:center;
+}
+
+/* Fondo principal con castillo */
+header{
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.85)),
+    url("castillo.jpg");
+    background-size:cover;
+    background-position:center;
+    padding:60px 30px;
+}
+
+h1,h2{
+    color:#d4af37;
+}
+
+/* Imagen del sombrero */
+.imagen-sombrero{
+    width:100%;
+}
+
+.imagen-sombrero img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    display:block;
+}
+
+.contenedor{
+    width:85%;
+    margin:40px auto;
+    background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75));
+    padding:30px;
+    border-radius:20px;
+}
+
+.pregunta{
+    background:rgba(20,20,20,.9);
+    margin:20px;
+    padding:20px;
+    border-radius:15px;
+    border:1px solid #d4af37;
+}
+
